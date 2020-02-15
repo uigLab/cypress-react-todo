@@ -1,4 +1,4 @@
-# Cypress: E2E testing with React todo app
+# Cypress: E2E testing with React Redux todo app
 
 ## Quick start
 Open bash from the root directory & run -
