@@ -4,6 +4,6 @@ describe('Todo App', function () {
     cy.get('input[data-cy=newItemField]').type('New Todo');
     cy.get('#addBtn').click();
 
-    cy.get('tr[data-cy=todoItem]:nth-child(1)').should('contain', 'New Todo')
+    cy.get('tr[data-cy=todoItem]:last-child').should('contain', 'New Todo')
   })
 });
