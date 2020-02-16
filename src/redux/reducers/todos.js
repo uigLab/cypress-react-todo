@@ -2,8 +2,6 @@ import { ADD_TODO, DELETE_TODO, CHECK_TODO } from "../actions/actionTypes";
 
 const todoItems = [];
 todoItems.push({ id: 1, value: "Buy Milk", done: false });
-todoItems.push({ id: 2, value: "Call Dad", done: false });
-todoItems.push({ id: 3, value: "Fill Gas", done: false });
 
 const todosReducer = (state = todoItems, action) => {
   switch (action.type) {
